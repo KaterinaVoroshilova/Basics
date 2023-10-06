@@ -48,7 +48,7 @@ public class CashbackHackServiceTest {
 
 
     @Test
-    public void shouldRemain100Amount900junit5() {
+    public void shouldRemain100Amount900Junit5() {
         CashbackHackService service = new CashbackHackService();
         int amount = 900;
         int expected = 100;
@@ -58,7 +58,7 @@ public class CashbackHackServiceTest {
     }
 
     @Test
-    public void shouldRemain0Amount1000junit5() {
+    public void shouldRemain0Amount1000Junit5() {
         CashbackHackService service = new CashbackHackService();
         int amount = 1000;
         int expected = 0;
@@ -68,7 +68,7 @@ public class CashbackHackServiceTest {
     }
 
     @Test
-    public void shouldRemain999Amount1001junit5() {
+    public void shouldRemain999Amount1001Junit5() {
         CashbackHackService service = new CashbackHackService();
         int amount = 1001;
         int expected = 999;
@@ -78,7 +78,7 @@ public class CashbackHackServiceTest {
     }
 
     @Test
-    public void shouldRemain1Amount2999junit5() {
+    public void shouldRemain1Amount2999Junit5() {
         CashbackHackService service = new CashbackHackService();
         int amount = 2999;
         int expected = 1;
